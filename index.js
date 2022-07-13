@@ -1,7 +1,7 @@
 'use strict';
 
 async function getUser() {
-    const res = await fetch('https://jsonplaceholder.typicode.com/users/3');
+    const res = await fetch('user.json');
     const user = await res.json();
     return user;
 }
